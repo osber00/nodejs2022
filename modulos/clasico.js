@@ -1,5 +1,7 @@
-const sumar = (x,y)=> x + y;
-const restar = (x,y) => x - y;
+function sumar (x,y){return x + y}
+function restar (x,y) {
+    return x - y
+}
 
 module.exports = {
     sumar,
