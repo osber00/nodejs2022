@@ -1,9 +1,9 @@
-function sumar (x,y){return x + y}
-function restar (x,y) {
+export function sumar (x,y){return x + y}
+export function restar (x,y) {
     return x - y
 }
 
-module.exports = {
+export default {
     sumar,
     restar
 }
